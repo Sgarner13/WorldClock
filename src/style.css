@@ -41,8 +41,8 @@ h2 {
   font-size: 50px;
 }
 .date {
-  margin: 20px;
-  font-size: 22px;
+  margin: 10px;
+  font-size: 18px;
 }
 .flag {
   font-size: 28px;
@@ -58,11 +58,8 @@ h2 {
 }
 
 .time {
-  font-size: 22px;
+  font-size: 34px;
   padding: 10px;
-}
-.am {
-  font-size: 18px;
 }
 
 footer {
