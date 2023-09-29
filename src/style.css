@@ -1,6 +1,71 @@
 body {
+  background: #f9f7fe;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
 }
+
+h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 46px;
+  margin-top: 5px;
+}
+select {
+  display: block;
+  margin: auto;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Yeseva One", cursive;
+  font-size: 28px;
+  margin: 0 0 5px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 250px;
+  border-top-left-radius: 250px;
+}
+.clock {
+  font-size: 50px;
+}
+.date {
+  margin: 20px;
+  font-size: 22px;
+}
+.flag {
+  font-size: 28px;
+}
+
+.city {
+  padding: 20px;
+  margin: 20px, 0;
+  border-bottom: 0.5px dashed rgba(129, 129, 135, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 22px;
+  padding: 10px;
+}
+.am {
+  font-size: 18px;
+}
+
 footer {
   text-align: center;
+  font-size: 18px;
 }
