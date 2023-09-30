@@ -25,6 +25,16 @@ h2 {
   font-size: 28px;
   margin: 0 0 5px;
 }
+a {
+  margin-top: 15px;
+  font-size: 18px;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  font-size: 22px;
+  color: purple;
+}
 
 .container {
   max-width: 600px;
